@@ -1,34 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>***Debug game***</title>
-    <style type="text/css">
-        span.password { font-size: 150%; font-family: monospace; font-weight: bold; margin: 0px 0.3em; }
-        input[type=button] { font-size: 125%; margin: 2em; }
-        div.guide { background-color: #e0e0e0; padding: 3px 1em; }
-    </style>
-    
+    <meta charset="utf-8">
+    <title>Yoshiaki & Misa Happy Wedding!!!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <iframe id="mainContents" src="" frameborder="0" height="800" width="800"></iframe>
-    <script>
-        var now = new Date();
-        var hour = now.getHours();
-        var pagename = "";
-            
-        var present_date = new Date("2017/9/22 00:00:00");
-        // ゲームが終わるまで
-        if(present_date >= now){
-            pagename = "question";
-    
-        // ゲーム終了後
-        } else {
-            pagename = "present";
-    
-        }
-        location.href = "https://ayamuto.github.io/first_reopsitory/contents/" + pagename + ".html";
-    </script>
+    <script type='text/javascript' src='./js/Question.js'></script>
+    <script type='text/javascript' src='./js/Router.js'></script>
+    <div id='content'></div>
 </body>
 </html>
