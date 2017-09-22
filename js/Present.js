@@ -11,7 +11,7 @@ Present.prototype.show = function() {
     hint.textContent = 'ヒントは『ニュウセキビ』'
 
     var button = document.createElement('a');
-    var albumUrl = 'http://30d.jp/ayamutoaya/1/photo/1';
+    var albumUrl = 'http://30d.jp/ay-m-wedding/1';
     button.setAttribute('href', albumUrl);
     button.setAttribute('class', 'square_btn');
     button.textContent = 'WEDDING PHOTO ALBUM';
