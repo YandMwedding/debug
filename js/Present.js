@@ -6,7 +6,7 @@ Present.prototype.show = function() {
     message.setAttribute('src', imgUrl);
     message.style.width = '100%';
     var pass = document.createElement('div');
-    pass.textContent = 'パスワードは４桁の数字'
+    pass.textContent = '合い言葉は４桁の半角数字'
     var hint = document.createElement('div');
     hint.textContent = 'ヒントは『ニュウセキビ』'
 
