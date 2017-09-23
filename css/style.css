@@ -14,3 +14,9 @@
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
 }
+
+.enquete {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

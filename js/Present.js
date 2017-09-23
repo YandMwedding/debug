@@ -16,10 +16,17 @@ Present.prototype.show = function() {
     button.setAttribute('class', 'square_btn');
     button.textContent = 'WEDDING PHOTO ALBUM';
 
+    var enquete = document.createElement('a');
+    var enqueteUrl = 'https://goo.gl/forms/ZQJ2248ngpfSNjUL2';
+    enquete.setAttribute('href', enqueteUrl);
+    enquete.setAttribute('class', 'enquete');
+    enquete.textContent = `アンケートにご協力お願いします`
+
 
     // 中央寄せタグ
     var center = document.createElement('center');
     center.appendChild(message);
+    center.appendChild(enquete);
     center.appendChild(button);
     center.appendChild(pass);
     center.appendChild(hint);
